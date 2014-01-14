@@ -19,6 +19,8 @@
 		5CEA26731885001100629CED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA265B1885001100629CED /* UIKit.framework */; };
 		5CEA267B1885001100629CED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA26791885001100629CED /* InfoPlist.strings */; };
 		5CEA267D1885001100629CED /* TempConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA267C1885001100629CED /* TempConverterTests.m */; };
+		5CEA26891885007400629CED /* ConverterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA26871885007400629CED /* ConverterVC.m */; };
+		5CEA268A1885007400629CED /* ConverterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA26881885007400629CED /* ConverterVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		5CEA26781885001100629CED /* TempConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempConverterTests-Info.plist"; sourceTree = "<group>"; };
 		5CEA267A1885001100629CED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CEA267C1885001100629CED /* TempConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempConverterTests.m; sourceTree = "<group>"; };
+		5CEA26861885007400629CED /* ConverterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterVC.h; sourceTree = "<group>"; };
+		5CEA26871885007400629CED /* ConverterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterVC.m; sourceTree = "<group>"; };
+		5CEA26881885007400629CED /* ConverterVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConverterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				5CEA26671885001100629CED /* TCAppDelegate.m */,
 				5CEA26691885001100629CED /* Images.xcassets */,
 				5CEA265E1885001100629CED /* Supporting Files */,
+				5CEA26861885007400629CED /* ConverterVC.h */,
+				5CEA26871885007400629CED /* ConverterVC.m */,
+				5CEA26881885007400629CED /* ConverterVC.xib */,
 			);
 			path = TempConverter;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CEA26621885001100629CED /* InfoPlist.strings in Resources */,
+				5CEA268A1885007400629CED /* ConverterVC.xib in Resources */,
 				5CEA266A1885001100629CED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CEA26641885001100629CED /* main.m in Sources */,
+				5CEA26891885007400629CED /* ConverterVC.m in Sources */,
 				5CEA26681885001100629CED /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +373,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TempConverter/TempConverter-Prefix.pch";
 				INFOPLIST_FILE = "TempConverter/TempConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TempConverter/TempConverter-Prefix.pch";
 				INFOPLIST_FILE = "TempConverter/TempConverter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
